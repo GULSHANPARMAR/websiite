@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     charset="UTF-8">
+     name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        background-color:#f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #d9534f;
+        }
+        .menu-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        .menu-table th, .menu-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .menu-table th {
+            background-color: #f2f2f2;
+        }
+        .specials {
+            background-color: #ffebcd;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+           
+        }
+        .reservation-form {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 8px;
+            width: 50%;
+            margin: auto;
+        }
+        .reservation-form input, .reservation-form select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+      
+            
+        }
+        .reservation-form button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to PARMAR'S Delight! (gulshan 12312342)</h1>
+    <p>At PARMAR'S Delight, we offer a fusion of traditional and contemporary flavors from around the world. Our dishes are made from the freshest ingredients, prepared with care and passion to satisfy your taste buds. Whether you're here for a quick bite or a full-course meal, we have something for everyone!</p>
+
+    <h2>Menu</h2>
+    <img src="https://wallpapercave.com/wp/wp1874173.jpg" alt="restaurant view" width="200" height="200">
+     <img src="https://tse3.mm.bing.net/th?id=OIP.LAKlyp7D03xGufDu_LE6mAHaE8&pid=Api&P=0&h=180" alt="restaurant view" width="200" height="200">
+    <img src="https://www.fatosdesconhecidos.com.br/wp-content/uploads/2016/08/dest-1.jpg" alt="restaurant view" width="200" height="200">
+<img src="https://c.pxhere.com/photos/c1/88/breakfast_egg_sausage_plate_meal_tomato_delicious_healthy_breakfast-825641.jpg!d" alt="restaurant view" width="200" height="200">
+    <table class="menu-table">
+        <thead>
+            <tr>
+                <th>Dish Name</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Spaghetti </td>
+                <td>Classic Italian pasta with creamy sauce and crispy bacon</td>
+                <td>$12.99</td>
+            </tr>
+            <tr>
+                <td>Margherita Pizza</td>
+                <td>Wood-fired pizza topped with fresh mozzarella and basil</td>
+                <td>$10.50</td>
+            </tr>
+            <tr>
+                <td>Grilled SANDWICH</td>
+                <td>Fresh salmon fillet grilled to perfection with lemon butter</td>
+                <td>$18.99</td>
+            </tr>
+            <tr>
+                <td>Chicken Tikka Masala</td>
+                <td>Indian spiced chicken in a rich tomato and cream sauce</td>
+                <td>$14.99</td>
+            </tr>
+            <tr>
+                <td>INDIAN Salad</td>
+                <td>health special salad with masala salad</td>
+                <td>$8.99</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="specials">
+        <h2>Today's Specials</h2>
+        <ul>
+            <li><strong>INDIAN SOUP:</strong> Rich and creamy lobster soup with a touch of sherry.</li>
+            <li><strong>veg wrap:</strong> Tender beef fillet wrapped in puff pastry with mushroom duxelles.</li>
+            <li><strong>crispy sweet:</strong> Crispy  breast glazed with a sweet orange sauce.</li>
+            <li><strong>cheesy rice:</strong> Creamy  rice with black truffles and  cheese.</li>
+            <li><strong>italian noodles:</strong>sogy and soupy italian rice fresh.</li>
+        </ul>
+    </div>
+
+    <h2>Make a Reservation</h2>
+    <form class="reservation-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="time">Preferred Reservation Time:</label>
+        <input type="datetime-local" id="time" name="time" required>
+
+        <button type="submit">Submit Reservation</button>
+    </form>
+
+</body>
+</html>
